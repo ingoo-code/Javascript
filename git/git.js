@@ -40,6 +40,27 @@
 
         
     9천번넘는 rebase 
-    1번문제
+    1번 문제 노가다문제!
+            or rebase 인자값  고정값 가져올값.
+
+     
+            git rebase main bugFix
+            git rebase bugFix side
+            git rebase sdie another
+            git branch -f main another
+
+    2번 문제 다수부모
+         git branch -f bugWork HEAD~^2^
+
+
+    3번 브랜치 스파게티
+
+        git checkout one
+        git chreey-pick c4 c3 c2
+        git checkout two
+        git chreey-pick c5 c4 c3 c2
+        git branch -f three c2
+
+        
 
 */
