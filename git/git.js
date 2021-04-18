@@ -10,7 +10,7 @@
 
     2번문제
         rebase -i 와
-        git commit --amend 활용하기 --amend 란몰까?
+        git commit --amend 활용하기 
 
         git rebase -i main 
         git commit --amend 
@@ -61,6 +61,6 @@
         git chreey-pick c5 c4 c3 c2
         git branch -f three c2
 
-        
+
 
 */
