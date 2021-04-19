@@ -21,12 +21,14 @@
     그래도 개념에 대한 이해도는 어느정도 정확히 알고있어야합니다.
     구현을직접하진못해도. 어떻게 돌아가는지는 알아야합니다.
 
-
+    응답.send();
 */
 
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+//const port = process.env.PORT || 3000;
+const port = 3000; 
+
 
 app.get('/',(req,res)=>{
     res.json({
