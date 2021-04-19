@@ -1,5 +1,6 @@
 /*
     터미널 :
+    npm init
     npm install --svae express 
     후 설치가 완료되었다면.
 
