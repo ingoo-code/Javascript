@@ -14,3 +14,22 @@ console.log(b.num1);
 delete a.num1;
 console.log(a);
 
+/*
+    프로토타입 식별자 룩업
+*/
+
+a = {
+    num1:1
+}
+
+b = {
+    __proto__:a,
+    num2:2
+}
+
+c = {
+    __proto__:b,
+    num3:3
+}
+
+console.log(c.num1);
