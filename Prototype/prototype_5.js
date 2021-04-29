@@ -74,3 +74,16 @@ const 현대 = function(color){
 }
 
 const car1 = new 현대('blue');
+
+/*
+    생성자 를 사용해서 비슷한 객체를 많이만들수있죠.
+
+    이후 휠즈랑
+    드라이브는 동일하기때문에 분리해줄수있겠죠
+
+    이후 객체.__proto__ = car; 넣어서 연결해서 사용
+    하지만 항상 __proto__ 를 사용해서일일이 넣으면 귀찮겠죠 ?
+
+    그래서 prototype.wheels ..
+    prototype.drive ..를 넣어서 만들어봅시다.
+*/
